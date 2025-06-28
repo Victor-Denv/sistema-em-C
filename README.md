@@ -1,99 +1,55 @@
 📚 Sistema de Gestão de Biblioteca em C
-
-
-
-⚠️ Importante: Este código foi desenvolvido em janeiro de 2025, quando eu ainda não tinha conhecimento sobre o uso de versionamento e commits no Git. Por isso, todo o código foi feito diretamente sem o uso de Git durante o desenvolvimento.
+⚠️ IMPORTANTE: Este projeto foi desenvolvido em janeiro de 2025, quando eu ainda não tinha conhecimento sobre o uso de versionamento e commits no Git. Por isso, o código foi feito diretamente sem histórico de commits.
 
 🎯 Descrição do Projeto
-    Este projeto é um sistema simples e funcional de Gestão de Biblioteca, desenvolvido em linguagem C, com foco no aprendizado de programação estruturada, manipulação de arquivos e separação de funcionalidades por funções.
-
-
-O sistema funciona 100% no terminal e permite:
-    ✔️ Cadastrar livros
-
-    ✔️ Cadastrar usuários
-
-    ✔️ Realizar empréstimos
-
-    ✔️ Fazer devoluções
-
-    ✔️ Listar livros, usuários e empréstimos
-
-    ✔️ Salvar dados em arquivos .txt para manter o histórico mesmo após fechar o programa
-
-
+Sistema simples e funcional de Gestão de Biblioteca em linguagem C, com menus interativos no terminal, permitindo o cadastro de livros e usuários, empréstimos, devoluções e listagem, com dados salvos em arquivos .txt para manter o histórico.
 
 ⚙️ Funcionalidades
-    ✅ Cadastro de livros (código, título, autor, ano)
+✅ Cadastro de livros (código, título, autor, ano)
+✅ Cadastro de usuários (ID, nome, CPF)
+✅ Empréstimos e devoluções de livros
+✅ Listagem de livros, usuários e empréstimos
+✅ Dados armazenados nos arquivos:
 
-    ✅ Cadastro de usuários (ID, nome, CPF)
+livros.txt
 
-    ✅ Empréstimo e devolução de livros
+usuarios.txt
 
-    ✅ Listagem completa de livros, usuários e empréstimos
-
-    ✅ Dados persistidos em arquivos .txt:
-    
-        .livros.txt
-
-        .usuarios.txt
-
-        .emprestimos.txt
-
+emprestimos.txt
 
 🛠️ Tecnologias Utilizadas
-
 Linguagem C padrão
 
-Compilador GCC (MinGW para Windows)
+Compilador GCC (MinGW no Windows)
 
 Manipulação de arquivos .txt
 
- Estrutura de dados com structs e vetores
-
+Structs e arrays fixos
 
 🗂️ Estrutura dos Arquivos
-    biblioteca.c           --> Código-fonte completo
-    livros.txt              --> Armazena livros cadastrados
-    usuarios.txt            --> Armazena usuários cadastrados
-    emprestimos.txt         --> Registra empréstimos e devoluções
-    Os arquivos .txt são criados automaticamente na primeira execução do sistema.
 
-
-
-
+sistema_biblioteca.c    --> Código-fonte completo
+livros.txt               --> Dados dos livros
+usuarios.txt             --> Dados dos usuários
+emprestimos.txt          --> Registros de empréstimos
+Os arquivos .txt são criados automaticamente.
 
 🚀 Como Executar
-    Pré-requisitos:
-    ✔️ Ter o GCC instalado (MinGW no Windows)
-     ✔️ Ter o VSCode ou outro editor de texto
+Instalar GCC (MinGW no Windows)
 
-Passos para compilar e executar:
-    gcc sistema_biblioteca.c -o biblioteca.exe
-    ./biblioteca.exe
+No terminal:
 
-
-
-
-
-
-
-
-
-
+gcc sistema_biblioteca.c -o biblioteca.exe
+./biblioteca.exe
 💡 Possíveis Melhorias Futuras
+Validação de entradas
 
-Melhor validação de entrada do usuário
+Busca avançada por título ou nome
 
 Controle de disponibilidade dos livros
 
-Limitação de quantidade de empréstimos por usuário
-
-Busca avançada por título, autor ou ID
-
-Modularização do código em arquivos .h separados
-
-
+Modularização em .h e .c separados
 
 👨‍💻 Autor
-Sistema criado como projeto de prática de programação em C durante meus estudos em janeiro de 2025, com o objetivo de treinar lógica de programação, manipulação de arquivos e estruturas de dados.
+Sistema criado como prática de linguagem C durante meus estudos em janeiro de 2025.
+
