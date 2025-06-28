@@ -10,35 +10,46 @@
 
 O sistema funciona 100% no terminal e permite:
     ✔️ Cadastrar livros
+
     ✔️ Cadastrar usuários
+
     ✔️ Realizar empréstimos
+
     ✔️ Fazer devoluções
+
     ✔️ Listar livros, usuários e empréstimos
+
     ✔️ Salvar dados em arquivos .txt para manter o histórico mesmo após fechar o programa
+
 
 
 ⚙️ Funcionalidades
     ✅ Cadastro de livros (código, título, autor, ano)
+
     ✅ Cadastro de usuários (ID, nome, CPF)
+
     ✅ Empréstimo e devolução de livros
+
     ✅ Listagem completa de livros, usuários e empréstimos
+
     ✅ Dados persistidos em arquivos .txt:
+    
+        .livros.txt
 
-    .livros.txt
+        .usuarios.txt
 
-    .usuarios.txt
-
-    .emprestimos.txt
+        .emprestimos.txt
 
 
 🛠️ Tecnologias Utilizadas
-    Linguagem C padrão
 
-    Compilador GCC (MinGW para Windows)
+Linguagem C padrão
 
-    Manipulação de arquivos .txt
+Compilador GCC (MinGW para Windows)
 
-    Estrutura de dados com structs e vetores
+Manipulação de arquivos .txt
+
+ Estrutura de dados com structs e vetores
 
 
 🗂️ Estrutura dos Arquivos
@@ -54,8 +65,8 @@ O sistema funciona 100% no terminal e permite:
 
 🚀 Como Executar
     Pré-requisitos:
-        ✔️ Ter o GCC instalado (MinGW no Windows)
-        ✔️ Ter o VSCode ou outro editor de texto
+    ✔️ Ter o GCC instalado (MinGW no Windows)
+     ✔️ Ter o VSCode ou outro editor de texto
 
 Passos para compilar e executar:
     gcc sistema_biblioteca.c -o biblioteca.exe
@@ -72,17 +83,17 @@ Passos para compilar e executar:
 
 💡 Possíveis Melhorias Futuras
 
-    Melhor validação de entrada do usuário
+Melhor validação de entrada do usuário
 
-    Controle de disponibilidade dos livros
+Controle de disponibilidade dos livros
 
-    Limitação de quantidade de empréstimos por usuário
+Limitação de quantidade de empréstimos por usuário
 
-    Busca avançada por título, autor ou ID
+Busca avançada por título, autor ou ID
 
-    Modularização do código em arquivos .h separados
+Modularização do código em arquivos .h separados
 
 
 
 👨‍💻 Autor
-    Sistema criado como projeto de prática de programação em C durante meus estudos em janeiro de 2025, com o objetivo de treinar lógica de programação, manipulação de arquivos e estruturas de dados.
+Sistema criado como projeto de prática de programação em C durante meus estudos em janeiro de 2025, com o objetivo de treinar lógica de programação, manipulação de arquivos e estruturas de dados.
